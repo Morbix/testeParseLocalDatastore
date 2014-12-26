@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A75DB63C1A4663BB0030FF0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A75DB63B1A4663BB0030FF0A /* main.m */; };
+		A75DB63F1A4663BB0030FF0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A75DB63E1A4663BB0030FF0A /* AppDelegate.m */; };
+		A75DB6421A4663BB0030FF0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A75DB6411A4663BB0030FF0A /* ViewController.m */; };
+		A75DB6451A4663BB0030FF0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A75DB6431A4663BB0030FF0A /* Main.storyboard */; };
+		A75DB6471A4663BB0030FF0A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A75DB6461A4663BB0030FF0A /* Images.xcassets */; };
+		A75DB64A1A4663BB0030FF0A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A75DB6481A4663BB0030FF0A /* LaunchScreen.xib */; };
+		A75DB6561A4663BB0030FF0A /* testeParseLocalDatastoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A75DB6551A4663BB0030FF0A /* testeParseLocalDatastoreTests.m */; };
+		C629B59ED9B2D1266C411E80 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB0462244345E92E97CDE3A /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A75DB6501A4663BB0030FF0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A75DB62E1A4663BB0030FF0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A75DB6351A4663BB0030FF0A;
+			remoteInfo = testeParseLocalDatastore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E5EF23DE2FF159E3056DE01 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		4BB0462244345E92E97CDE3A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A75DB6361A4663BB0030FF0A /* testeParseLocalDatastore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testeParseLocalDatastore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A75DB63A1A4663BB0030FF0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A75DB63B1A4663BB0030FF0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A75DB63D1A4663BB0030FF0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A75DB63E1A4663BB0030FF0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A75DB6401A4663BB0030FF0A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A75DB6411A4663BB0030FF0A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A75DB6441A4663BB0030FF0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A75DB6461A4663BB0030FF0A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A75DB6491A4663BB0030FF0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A75DB64F1A4663BB0030FF0A /* testeParseLocalDatastoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testeParseLocalDatastoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A75DB6541A4663BB0030FF0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A75DB6551A4663BB0030FF0A /* testeParseLocalDatastoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testeParseLocalDatastoreTests.m; sourceTree = "<group>"; };
+		CD74F3BB7D7075FBF7ED7262 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A75DB6331A4663BB0030FF0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C629B59ED9B2D1266C411E80 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A75DB64C1A4663BB0030FF0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B545F4E976804A8876FD1C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E5EF23DE2FF159E3056DE01 /* Pods.debug.xcconfig */,
+				CD74F3BB7D7075FBF7ED7262 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A75DB62D1A4663BB0030FF0A = {
+			isa = PBXGroup;
+			children = (
+				A75DB6381A4663BB0030FF0A /* testeParseLocalDatastore */,
+				A75DB6521A4663BB0030FF0A /* testeParseLocalDatastoreTests */,
+				A75DB6371A4663BB0030FF0A /* Products */,
+				4B545F4E976804A8876FD1C4 /* Pods */,
+				D63484D781CDB2883CEDA89B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A75DB6371A4663BB0030FF0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A75DB6361A4663BB0030FF0A /* testeParseLocalDatastore.app */,
+				A75DB64F1A4663BB0030FF0A /* testeParseLocalDatastoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A75DB6381A4663BB0030FF0A /* testeParseLocalDatastore */ = {
+			isa = PBXGroup;
+			children = (
+				A75DB63D1A4663BB0030FF0A /* AppDelegate.h */,
+				A75DB63E1A4663BB0030FF0A /* AppDelegate.m */,
+				A75DB6401A4663BB0030FF0A /* ViewController.h */,
+				A75DB6411A4663BB0030FF0A /* ViewController.m */,
+				A75DB6431A4663BB0030FF0A /* Main.storyboard */,
+				A75DB6461A4663BB0030FF0A /* Images.xcassets */,
+				A75DB6481A4663BB0030FF0A /* LaunchScreen.xib */,
+				A75DB6391A4663BB0030FF0A /* Supporting Files */,
+			);
+			path = testeParseLocalDatastore;
+			sourceTree = "<group>";
+		};
+		A75DB6391A4663BB0030FF0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A75DB63A1A4663BB0030FF0A /* Info.plist */,
+				A75DB63B1A4663BB0030FF0A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A75DB6521A4663BB0030FF0A /* testeParseLocalDatastoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				A75DB6551A4663BB0030FF0A /* testeParseLocalDatastoreTests.m */,
+				A75DB6531A4663BB0030FF0A /* Supporting Files */,
+			);
+			path = testeParseLocalDatastoreTests;
+			sourceTree = "<group>";
+		};
+		A75DB6531A4663BB0030FF0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A75DB6541A4663BB0030FF0A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D63484D781CDB2883CEDA89B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BB0462244345E92E97CDE3A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A75DB6351A4663BB0030FF0A /* testeParseLocalDatastore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A75DB6591A4663BB0030FF0A /* Build configuration list for PBXNativeTarget "testeParseLocalDatastore" */;
+			buildPhases = (
+				4EF6A97B1534A4767E1C4C0F /* Check Pods Manifest.lock */,
+				A75DB6321A4663BB0030FF0A /* Sources */,
+				A75DB6331A4663BB0030FF0A /* Frameworks */,
+				A75DB6341A4663BB0030FF0A /* Resources */,
+				9A67C56EAF98B9EDD9FCCE13 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testeParseLocalDatastore;
+			productName = testeParseLocalDatastore;
+			productReference = A75DB6361A4663BB0030FF0A /* testeParseLocalDatastore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A75DB64E1A4663BB0030FF0A /* testeParseLocalDatastoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A75DB65C1A4663BB0030FF0A /* Build configuration list for PBXNativeTarget "testeParseLocalDatastoreTests" */;
+			buildPhases = (
+				A75DB64B1A4663BB0030FF0A /* Sources */,
+				A75DB64C1A4663BB0030FF0A /* Frameworks */,
+				A75DB64D1A4663BB0030FF0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A75DB6511A4663BB0030FF0A /* PBXTargetDependency */,
+			);
+			name = testeParseLocalDatastoreTests;
+			productName = testeParseLocalDatastoreTests;
+			productReference = A75DB64F1A4663BB0030FF0A /* testeParseLocalDatastoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A75DB62E1A4663BB0030FF0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Morbix;
+				TargetAttributes = {
+					A75DB6351A4663BB0030FF0A = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					A75DB64E1A4663BB0030FF0A = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = A75DB6351A4663BB0030FF0A;
+					};
+				};
+			};
+			buildConfigurationList = A75DB6311A4663BB0030FF0A /* Build configuration list for PBXProject "testeParseLocalDatastore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A75DB62D1A4663BB0030FF0A;
+			productRefGroup = A75DB6371A4663BB0030FF0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A75DB6351A4663BB0030FF0A /* testeParseLocalDatastore */,
+				A75DB64E1A4663BB0030FF0A /* testeParseLocalDatastoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A75DB6341A4663BB0030FF0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A75DB6451A4663BB0030FF0A /* Main.storyboard in Resources */,
+				A75DB64A1A4663BB0030FF0A /* LaunchScreen.xib in Resources */,
+				A75DB6471A4663BB0030FF0A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A75DB64D1A4663BB0030FF0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4EF6A97B1534A4767E1C4C0F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A67C56EAF98B9EDD9FCCE13 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A75DB6321A4663BB0030FF0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A75DB6421A4663BB0030FF0A /* ViewController.m in Sources */,
+				A75DB63F1A4663BB0030FF0A /* AppDelegate.m in Sources */,
+				A75DB63C1A4663BB0030FF0A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A75DB64B1A4663BB0030FF0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A75DB6561A4663BB0030FF0A /* testeParseLocalDatastoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A75DB6511A4663BB0030FF0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A75DB6351A4663BB0030FF0A /* testeParseLocalDatastore */;
+			targetProxy = A75DB6501A4663BB0030FF0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A75DB6431A4663BB0030FF0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A75DB6441A4663BB0030FF0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A75DB6481A4663BB0030FF0A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A75DB6491A4663BB0030FF0A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A75DB6571A4663BB0030FF0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A75DB6581A4663BB0030FF0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A75DB65A1A4663BB0030FF0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E5EF23DE2FF159E3056DE01 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = testeParseLocalDatastore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A75DB65B1A4663BB0030FF0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD74F3BB7D7075FBF7ED7262 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = testeParseLocalDatastore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A75DB65D1A4663BB0030FF0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = testeParseLocalDatastoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testeParseLocalDatastore.app/testeParseLocalDatastore";
+			};
+			name = Debug;
+		};
+		A75DB65E1A4663BB0030FF0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = testeParseLocalDatastoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testeParseLocalDatastore.app/testeParseLocalDatastore";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A75DB6311A4663BB0030FF0A /* Build configuration list for PBXProject "testeParseLocalDatastore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A75DB6571A4663BB0030FF0A /* Debug */,
+				A75DB6581A4663BB0030FF0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A75DB6591A4663BB0030FF0A /* Build configuration list for PBXNativeTarget "testeParseLocalDatastore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A75DB65A1A4663BB0030FF0A /* Debug */,
+				A75DB65B1A4663BB0030FF0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A75DB65C1A4663BB0030FF0A /* Build configuration list for PBXNativeTarget "testeParseLocalDatastoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A75DB65D1A4663BB0030FF0A /* Debug */,
+				A75DB65E1A4663BB0030FF0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A75DB62E1A4663BB0030FF0A /* Project object */;
+}
